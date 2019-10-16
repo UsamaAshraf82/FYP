@@ -1,0 +1,145 @@
+@import './Shared/_variables.scss';
+
+.ProjectTitle {
+    margin-top: 25px;
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: $primary_color;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: $medium_color;
+    }
+}
+
+.ProfileIMG img {
+    margin: 0 36px;
+    border-radius: 300px;
+    width: 55%;
+}
+
+.ProfileIMG h6 {
+    margin-top: 8px;
+    margin-left: 6px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: $primary_color;
+}
+
+.Project_Image img {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 350px;
+    width: 640px;
+    border: 1px groove;
+}
+
+.ProgressBar {
+    margin-top: 20px;
+    background-color: green;
+    height: 4px;
+    margin-left: 10px;
+    width: 65%;
+}
+
+.sp{
+    margin-top: 9px;
+}
+
+.odometer-block {
+    margin-left: 13px;
+}
+
+.Investment_Detail h4 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: $primary_color;
+}
+
+.sp h6 {
+    margin-top: -10px;
+    padding-left: 2.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: $primary_color;
+}
+
+.Investment_Detail h3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: $primary_color;
+}
+
+.odometer-block {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: $primary_color;
+}
+
+.Investment_Detail a {
+    @include buttonTransparent;
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 70%;
+    padding: 10px;
+    color: $primary_color;
+    border: $primary_color solid 1px;
+    background: $secondary_color;
+    display: inline-block;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $secondary_color;
+        border: $primary_color solid 1px;
+        background: $primary_color;
+    }
+}
+
+.Project_Header {
+    margin-bottom: 30px;
+}
+
+    .Project_Header ul {
+        list-style-type: none;
+        padding: 0;
+        //background-color: lightgray;
+    }
+
+    .Project_Header li {
+        display: inline-block;
+        margin-right: 3%;
+    }
+
+        .Project_Header li button {
+            //display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border: none;
+            background-color: #EDEDEE;
+        }
+
+.Project_Header hr {
+    border-color: $medium_color;
+}
+
+.Des {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: justify;
+}
+
+ul.react-tabs__tab-list {
+    border-bottom: solid;
+}

@@ -1,0 +1,44 @@
+﻿.funding{
+    background-color:darkgrey;
+    //padding:10px;
+    border-radius:5px;
+
+
+}
+.search{
+    margin-top:6px;
+}
+.search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 0px;
+    margin-left: -2px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.funding h3{
+    margin-top:10px;
+    color: white;
+}
+.listCampaing button{
+    margin-left:90px;
+}
+.table_Data {
+    margin-top: 30px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    
+}
+
+.table_Data th {
+    font-weight: bold;
+}

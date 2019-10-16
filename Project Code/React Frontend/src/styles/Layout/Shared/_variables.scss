@@ -1,0 +1,39 @@
+﻿$slider_height: 500px;
+$slider_width: 1120px;
+
+$Banner1: '../Images/Home/Banner/Top10.jpg';
+$Banner2: '../Images/Home/Banner/Company.png';
+$Banner3: '../Images/Home/Banner/Pakistan.jpg';
+
+$background_color: #f4f4f4;
+
+$primary_color: #3C1A5B;
+$secondary_color: #EBE8EE;
+$medium_color: #62477b;
+
+$info_color: #56aee5;
+$success_color: #83bd3f;
+$danger_color: #e15757;
+$warning_color: #f06a28;
+$grey_color: #f6f6f6;
+$white_color: #fff;
+$dark_color: #1e1e1e;
+$black_color: #000000;
+$greyM_color : #a8a8a8;
+
+
+
+@mixin buttonTransparent {
+	background: transparent;
+	border: 0;
+}
+
+@mixin alignCentre {
+	display: flex;
+	align-items: center;
+}
+
+@mixin alignCentreHorizontal {
+	display: flex;
+	justify-content: center;
+}

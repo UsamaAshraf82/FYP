@@ -1,0 +1,169 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+    <RootNamespace>Invest_Me_Web_React_Application</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove="ClientApp\.storybook\**" />
+    <Compile Remove="ClientApp\.vs\**" />
+    <Compile Remove="ClientApp\build\**" />
+    <Compile Remove="ClientApp\src\components\AdminPanel\Dynamic\NewFolder\**" />
+    <Content Remove="$(SpaRoot)**" />
+    <Content Remove="ClientApp\.storybook\**" />
+    <Content Remove="ClientApp\.vs\**" />
+    <Content Remove="ClientApp\build\**" />
+    <Content Remove="ClientApp\src\components\AdminPanel\Dynamic\NewFolder\**" />
+    <EmbeddedResource Remove="ClientApp\.storybook\**" />
+    <EmbeddedResource Remove="ClientApp\.vs\**" />
+    <EmbeddedResource Remove="ClientApp\build\**" />
+    <EmbeddedResource Remove="ClientApp\src\components\AdminPanel\Dynamic\NewFolder\**" />
+    <None Remove="$(SpaRoot)**" />
+    <None Remove="ClientApp\.storybook\**" />
+    <None Remove="ClientApp\.vs\**" />
+    <None Remove="ClientApp\build\**" />
+    <None Remove="ClientApp\src\components\AdminPanel\Dynamic\NewFolder\**" />
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190310205632_UserCorrected.cs" />
+    <Compile Remove="Migrations\20190310211553_UserPasswordhash.cs" />
+    <Compile Remove="Migrations\20190310220020_Database.cs" />
+    <Compile Remove="Migrations\20190313192711_usertableedit.cs" />
+    <Compile Remove="Migrations\20190318203925_userEmailUnique.cs" />
+    <Compile Remove="Migrations\20190318215540_User_V3.cs" />
+    <Compile Remove="Migrations\20190318215747_User_V3.cs" />
+    <Compile Remove="Migrations\20190420110400_EditCampaignV2.cs" />
+    <Compile Remove="Migrations\20190508200327_investor.cs" />
+    <Compile Remove="Migrations\20190508200947_investor.cs" />
+    <Compile Remove="Migrations\20190508201525_investor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ClientApp\.storybook\addons.js" />
+    <None Remove="ClientApp\.storybook\config.js" />
+    <None Remove="ClientApp\.vs\ClientApp\v15\.suo" />
+    <None Remove="ClientApp\.vs\slnx.sqlite" />
+    <None Remove="ClientApp\.vs\VSWorkspaceState.json" />
+    <None Remove="ClientApp\build\asset-manifest.json" />
+    <None Remove="ClientApp\build\favicon.ico" />
+    <None Remove="ClientApp\build\index.html" />
+    <None Remove="ClientApp\build\manifest.json" />
+    <None Remove="ClientApp\build\precache-manifest.e2a484694c451a0429441b111aebf692.js" />
+    <None Remove="ClientApp\build\service-worker.js" />
+    <None Remove="ClientApp\build\static\css\1.b01cecf4.chunk.css" />
+    <None Remove="ClientApp\build\static\css\1.b01cecf4.chunk.css.map" />
+    <None Remove="ClientApp\build\static\css\main.a60221b5.chunk.css" />
+    <None Remove="ClientApp\build\static\css\main.a60221b5.chunk.css.map" />
+    <None Remove="ClientApp\build\static\js\1.47602923.chunk.js" />
+    <None Remove="ClientApp\build\static\js\1.47602923.chunk.js.map" />
+    <None Remove="ClientApp\build\static\js\main.08f4bbe6.chunk.js" />
+    <None Remove="ClientApp\build\static\js\main.08f4bbe6.chunk.js.map" />
+    <None Remove="ClientApp\build\static\js\runtime~main.229c360f.js" />
+    <None Remove="ClientApp\build\static\js\runtime~main.229c360f.js.map" />
+    <None Remove="ClientApp\build\static\media\1.6ed29f44.jpg" />
+    <None Remove="ClientApp\build\static\media\2.310e96fd.jpg" />
+    <None Remove="ClientApp\build\static\media\3.99dcdeb2.jpg" />
+    <None Remove="ClientApp\build\static\media\4.db617888.jpg" />
+    <None Remove="ClientApp\build\static\media\Company.b3dd30ff.png" />
+    <None Remove="ClientApp\build\static\media\Pakistan.dd62faef.jpg" />
+    <None Remove="ClientApp\build\static\media\sliderLeft.c73b38c9.svg" />
+    <None Remove="ClientApp\build\static\media\sliderRight.0946a4c9.svg" />
+    <None Remove="ClientApp\build\static\media\Top10.444a76d7.jpg" />
+    <None Remove="ClientApp\src\components\Dynamic\DashBoardF.jsx~RF2c520cd.TMP" />
+    <None Remove="ClientApp\src\components\Dynamic\test.jsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\src\styles\Layout\AdminPanel\" />
+  </ItemGroup>
+
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot)build\**; $(SpaRoot)build-ssr\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptTarget>ES2017</TypeScriptTarget>
+    <TypeScriptJSXEmit>React</TypeScriptJSXEmit>
+    <TypeScriptModuleKind>ES6</TypeScriptModuleKind>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+
+</Project>

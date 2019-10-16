@@ -1,0 +1,41 @@
+﻿using System;
+
+namespace InvestMeAPI.DTOS
+{
+    public class CampaignUserDTO
+    {
+        public int CampaignId { get; set; }
+
+        public string Title { get; set; }
+        public string Stage { get; set; }
+        public string Category { get; set; }
+
+        public string Tag1 { get; set; }
+        public string Tag2 { get; set; }
+        public string Tag3 { get; set; }
+
+        public string Summary { get; set; }
+        public string Discription { get; set; }
+
+        public string City { get; set; }
+        public string Country { get; set; }
+
+        public Int64? TotalCost { get; set; }
+        public Int64? Fund { get; set; }
+        public string CurrencyUnit { get; set; }
+
+        public DateTime? EstimatedFirstProfit { get; set; }
+        public DateTime? NeedFundBefore { get; set; }
+
+        public string Cardimage { get; set; }
+        public string Headerimage { get; set; }
+
+        public Int64 Investment { get; set; }
+
+        public int UserId { get; set; }
+        public string FName { get; set; }
+        public string LName { get; set; }
+        public string Email { get; set; }
+
+    }
+}

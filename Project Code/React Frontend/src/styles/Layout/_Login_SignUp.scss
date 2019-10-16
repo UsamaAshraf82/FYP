@@ -1,0 +1,123 @@
+@import "Shared/variables";
+
+.register {
+    margin: 3% 4%;
+    padding: 20px;
+
+    .register-form {
+        display: inline-block;
+        text-align: center;
+        width: 60%;
+        margin: 4% 20%;
+    }
+
+    .extra {
+        margin-left: 15%;
+        margin-top: 25px;
+
+        a {
+            margin-right: 70px;
+            color: $greyM_color;
+        }
+    }
+
+    .form-control {
+        border: 1px solid $greyM_color;
+    }
+
+    .form-control:focus {
+        border: 1px solid $black_color;
+    }
+
+    .form-control::placeholder {
+        color: $greyM_color;
+    }
+
+
+
+    .btnRegister{
+            background: $secondary_color;
+            color: $primary_color !important;
+            border: $primary_color solid 1px;
+            box-shadow: unset;
+            border-radius:15px;
+
+            &:hover {
+                background: $primary_color;
+                color: $secondary_color !important;
+                border: $secondary_color solid 1px;
+            }
+        }
+
+        .register-heading {
+            text-align: center;
+            color: #495057;
+        }
+    }
+
+    .login {
+        margin: 5% 15%;
+
+        .heading {
+            @include alignCentreHorizontal();
+            font-size: 40px;
+            color: $primary_color;
+            margin-top: 30px;
+        }
+
+        .loginForm {
+            label {
+                color: $primary_color;
+            }
+
+            button {
+                background: $secondary_color;
+                color: $primary_color !important;
+                border: $primary_color solid 1px;
+                box-shadow: unset;
+                border-radius:15px;
+
+                &:hover {
+                    background: $primary_color;
+                    color: $secondary_color !important;
+                    border: $secondary_color solid 1px;
+                }
+            }
+
+            a {
+                background: $secondary_color;
+                color: $primary_color !important;
+                border: $primary_color solid 1px;
+                box-shadow: unset;
+                float: right;
+
+                &:hover {
+                    background: $primary_color;
+                    color: $secondary_color !important;
+                    border: $secondary_color solid 1px;
+                }
+            }
+        }
+
+        .register-form {
+            @include alignCentreHorizontal();
+        }
+
+        .btnLogin {
+            margin: 5% 25%;
+            border: none;
+            border-radius: 1.5rem;
+            padding: 2%;
+            background: #0062cc;
+            color: #fff;
+            font-weight: 600;
+            width: 50%;
+            cursor: pointer;
+        }
+    }
+
+
+    .popup-content {
+        width: 35% !important;
+        background: $secondary_color !important;
+    }

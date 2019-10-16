@@ -1,0 +1,131 @@
+﻿@import 'Shared/_variables.scss';
+
+#HomeSlider {
+    & > .carousel-inner {
+        & > .carousel-item {
+            & > .d-block {
+                height: $slider_height;
+                width: $slider_width;
+            }
+        }
+    }
+
+    & > .carousel-control {
+        @include buttonTransparent();
+        margin-top: - $slider_height/2;
+        position: relative;
+    }
+}
+
+.home-hr{
+    border : 0.5px solid $medium_color;
+}
+
+.campaign {
+    .heading {
+
+        h1 {
+            font-family: 'Gugi', cursive;
+            color: $primary_color;
+            margin-top: 8px;
+            border-bottom: 2px solid $primary_color;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+
+
+        .slider {
+            @include alignCentre();
+
+            button {
+                @include buttonTransparent();
+
+                img {
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+
+%banner {
+    height: 250px;
+    background-color: $background_color;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Banner1 {
+    @extend %banner;
+    background-image: url($Banner1);
+}
+
+.Banner2 {
+    @extend %banner;
+    background-image: url($Banner2);
+}
+
+.Banner3 {
+    @extend %banner;
+    background-image: url($Banner3);
+}
+
+.Banner4 {
+    @extend %banner;
+}
+
+.categories {
+    .heading {
+
+        h1 {
+            font-family: 'Gugi', cursive;
+            color: $primary_color;
+            margin-top: 8px;
+            border-bottom: 2px solid $primary_color;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+    }
+}
+
+.funds {
+    background-color: $primary_color;
+    height: 225px;
+    margin-top: 50px;
+
+    h1 {
+        @include alignCentreHorizontal;
+        font-family: 'Gugi', cursive;
+
+        color: $secondary_color;
+        padding-top: 20px;
+    }
+
+    div.col-md-4 {
+        margin-top: 30px;
+        border-left: $secondary_color solid;
+
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            @include alignCentreHorizontal;
+            color: $secondary_color;
+        }
+
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            @include alignCentreHorizontal;
+            color: $secondary_color;
+        }
+
+        &:first-child {
+            border: 0;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+
+<svg contentScriptType="text/ecmascript" width="68px"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css" viewBox="0 0 68 68" height="68px"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch 
+    -->
+    <title>
+        Stroked Arrow Left
+    </title>
+    <desc>
+        Created with Sketch.
+    </desc>
+    <defs/>
+    <g fill="none" stroke-width="1" id="Page-1" fill-rule="evenodd"
+       stroke="none">
+        <g id="Components" transform="translate(-99.000000, -1562.000000)">
+            <g id="Arrows" transform="translate(100.000000, 1563.000000)">
+                <g id="Stroked-Arrow-Left">
+                    <circle r="33" id="Stroke" cx="33" cy="33" stroke="#EEEEEE"/>
+                    <g fill="#DDDDDD" id="Arrow-Left"
+                       transform="translate(23.000000, 19.000000)">
+                        <polyline points="1.157 0 0 1.144 12.325 13.62 0 25.691 1.325 27 15 13.691 1.157 0"
+                                  transform="translate(8.000000, 14.000000) scale(-1, 1) translate(-8.000000, -14.000000) "/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

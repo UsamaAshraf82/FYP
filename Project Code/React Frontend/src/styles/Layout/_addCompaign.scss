@@ -1,0 +1,243 @@
+﻿@import "Shared/_variables.scss";
+
+.Project_Detail {
+    margin-bottom: 30px;
+}
+
+.Project_Detail ul {
+    list-style-type: none;
+    padding: 0;
+    //background-color: lightgray;
+}
+
+.Project_Detail li {
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.Project_Detail li button {
+    //display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+}
+.city{
+    margin-top:70px;
+}
+
+.Project_Detail hr {
+    margin-top: 2%;
+}
+.Details h2 {
+   text-align:center;
+   margin-bottom:40px;
+   color:#3C1A5B;
+}
+.Details form {
+    padding: 40px;
+    border: 2px solid gray;
+    margin-left: 100px;
+    border-radius: 5px;
+    box-shadow: 10px 10px lightgrey;
+    font-style: oblique;
+    font-size: 16px;
+    background-color: #F2F3F4;
+}
+.lbl {
+    margin-left: 50px;
+    margin-bottom:30px;
+}
+.editor{
+
+    height:200px;
+}
+.sub{
+
+    margin-left:50px;
+    width:110px;
+}
+.Dropzone{
+    border:1px solid $primary_color;
+}
+
+.HeaderimageDropzone {
+    height: 320px;
+    width: 609px;
+
+    img {
+        height: 318px;
+        width: 607px;
+    }
+}
+
+.CardimageDropzone {
+    height: 210px;
+    width: 253px;
+
+    img {
+        height: 208px;
+        width: 251px;
+    }
+}
+
+/*
+
+.form-style-5 {
+    max-width: 650px;
+    padding: 10px 20px;
+    background: white;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-style-5 fieldset {
+    border: none;
+}
+
+.form-style-5 h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-style-5 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.form-style-5 label {
+    display: block;
+    margin-bottom: 4px;
+    margin-top: -14px;
+    font-size: 1.2em;
+}
+
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 input[type="password"],
+.form-style-5 textarea,
+.form-style-5 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #EBE8EE;
+    color: #8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+}
+
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus {
+    background: #EBE8EE;
+}
+
+.form-style-5 select {
+    -webkit-appearance: menulist-button;
+    height: 35px;
+}
+
+.form-style-5 .number {
+    background: #EBE8EE;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"] {
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background: #62477b;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover {
+    background: #109177;
+}
+
+#tag_1 {
+    margin-right: 60px;
+}
+
+#tag_2 {
+    margin-right: 60px;
+}
+
+#City {
+    margin-top: 20px;
+}
+
+#Country {
+    margin-left: 45%;
+    margin-top: -20%;
+    width: 110%;
+}
+
+#currency {
+    margin-left: 11%;
+    height: 5%;
+}
+
+#funding {
+    margin-left: 11%;
+    height: 5%;
+}
+
+#duration {
+    margin-left: 53%;
+    margin-top: -20%;
+    width: 42%;
+}
+
+#StageID {
+    height: 40px;
+}
+
+#projectID {
+    height: 40px;
+}
+    */

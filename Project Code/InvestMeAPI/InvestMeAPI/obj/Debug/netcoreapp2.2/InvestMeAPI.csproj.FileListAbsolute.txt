@@ -1,0 +1,14 @@
+D:\InvestMe\InvestMeAPI\InvestMeAPI\bin\Debug\netcoreapp2.2\InvestMeAPI.deps.json
+D:\InvestMe\InvestMeAPI\InvestMeAPI\bin\Debug\netcoreapp2.2\InvestMeAPI.runtimeconfig.json
+D:\InvestMe\InvestMeAPI\InvestMeAPI\bin\Debug\netcoreapp2.2\InvestMeAPI.runtimeconfig.dev.json
+D:\InvestMe\InvestMeAPI\InvestMeAPI\bin\Debug\netcoreapp2.2\InvestMeAPI.dll
+D:\InvestMe\InvestMeAPI\InvestMeAPI\bin\Debug\netcoreapp2.2\InvestMeAPI.pdb
+D:\InvestMe\InvestMeAPI\InvestMeAPI\obj\Debug\netcoreapp2.2\InvestMeAPI.csproj.CoreCompileInputs.cache
+D:\InvestMe\InvestMeAPI\InvestMeAPI\obj\Debug\netcoreapp2.2\InvestMeAPI.RazorAssemblyInfo.cache
+D:\InvestMe\InvestMeAPI\InvestMeAPI\obj\Debug\netcoreapp2.2\InvestMeAPI.RazorAssemblyInfo.cs
+D:\InvestMe\InvestMeAPI\InvestMeAPI\obj\Debug\netcoreapp2.2\InvestMeAPI.AssemblyInfoInputs.cache
+D:\InvestMe\InvestMeAPI\InvestMeAPI\obj\Debug\netcoreapp2.2\InvestMeAPI.AssemblyInfo.cs
+D:\InvestMe\InvestMeAPI\InvestMeAPI\obj\Debug\netcoreapp2.2\InvestMeAPI.RazorTargetAssemblyInfo.cache
+D:\InvestMe\InvestMeAPI\InvestMeAPI\obj\Debug\netcoreapp2.2\InvestMeAPI.dll
+D:\InvestMe\InvestMeAPI\InvestMeAPI\obj\Debug\netcoreapp2.2\InvestMeAPI.pdb
+D:\InvestMe\InvestMeAPI\InvestMeAPI\obj\Debug\netcoreapp2.2\InvestMeAPI.csprojAssemblyReference.cache

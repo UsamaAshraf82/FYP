@@ -1,0 +1,155 @@
+﻿@import "./Shared/_variables.scss";
+
+.navbar {
+  padding: 0;
+}
+
+.header {
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.header-top {
+  height: 63px;
+  @include alignCentre();
+
+  & > a {
+    & > img {
+      width: 265px;
+      margin-top: 3px;
+    }
+  }
+
+  .HeaderTopRightBtns {
+    ul {
+      list-style-type: none;
+      margin-bottom: 0;
+      float: right;
+
+      li {
+        display: inline-block;
+        border: $primary_color solid 1px;
+        margin-left: 20px;
+        color: $primary_color;
+
+        a,
+        button,
+        h5 {
+          @include buttonTransparent;
+          padding: 10px;
+          color: inherit;
+          display: inline-block;
+          text-transform: uppercase;
+        }
+        h5 {
+          text-transform: none;
+          margin: 0;
+        }
+
+        &:hover {
+          color: $secondary_color;
+          border: $primary_color solid 1px;
+          background: $primary_color;
+        }
+
+        &:last-child {
+          border: 0;
+
+          &:hover {
+            color: $primary_color;
+            background: unset;
+          }
+        }
+      }
+    }
+  }
+}
+
+#hr1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header-bottom {
+  height: 63px;
+  @include alignCentre();
+
+  & > .HeaderBottomLeftBtns {
+    ul {
+      padding-left: 0px;
+      list-style-type: none;
+      margin-bottom: 0;
+
+      li {
+        padding-right: 0;
+        display: inline-block;
+
+        .navbtn {
+          padding: 10px;
+          box-shadow: unset;
+          font-family: "Californian FB";
+          color: $secondary_color;
+          margin: 0;
+          padding: 22px;
+          width: 176px;
+          border-radius: 0;
+
+          &:hover {
+            color: $primary_color;
+            background-color: $secondary_color;
+          }
+        }
+      }
+    }
+  }
+
+  & > .HeaderBottomRightBtns {
+    & > button {
+      @include buttonTransparent();
+      margin-left: 15px;
+      color: white;
+      float: right;
+    }
+
+    .dropdown {
+      button {
+        background: transparent;
+        border: 0;
+        color: white;
+      }
+
+      button:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+.HeaderBottomRightBtns a {
+  margin-left: 20px;
+  color: white;
+}
+.AdminList ul li {
+  margin-right: 60px;
+}
+
+.top,
+.bottom {
+  display: block;
+}
+
+div#navbarTogglerDemo01 {
+  display: unset !important;
+}
+
+.top {
+  background: $secondary_color;
+  border-top: solid $primary_color 5px;
+}
+
+.bottom {
+  background: $primary_color;
+}
+.HeaderBottomLeftBtns a {
+  color: white;
+}
